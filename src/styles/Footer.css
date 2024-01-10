@@ -1,0 +1,42 @@
+.footer {
+  color: white;
+  background-color: #0b2149;
+}
+
+.footer-all-columns {
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 4% 0;
+}
+
+.footer-column {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer-text {
+  color: #7395ba;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  width: 32%;
+}
+
+.footer-breakLine {
+  height: 2rem;
+}
+
+.footer-link {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.footer-link:hover, .footer-link:focus {
+  text-decoration: underline;
+}
+
+.footer-notShow {
+  color: transparent;
+  user-select: none;
+}

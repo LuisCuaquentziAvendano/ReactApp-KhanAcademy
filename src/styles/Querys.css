@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  .header-input-image,
+  .header-button-image,
+  .header-title {
+    display: none;
+  }
+
+  .header {
+    font-size: 0.7rem;
+  }
+
+  .header-title {
+    font-size: 1rem;
+  }
+
+  .header a {
+    width: 3rem;
+    text-align: center;
+  }
+
+  .header-bigGap {
+    gap: 1rem;
+  }
+
+  .section {
+    margin: 1rem;
+  }
+
+  .section-subjects {
+    gap: 8%;
+  }
+
+  .section-item {
+    width: 46%;
+    position: relative;
+  }
+
+  .footer-text {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  .footer-all-columns {
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-subjects {
+    gap: 0;
+  }
+
+  .section-item {
+    width: 100%;
+    position: relative;
+  }
+}

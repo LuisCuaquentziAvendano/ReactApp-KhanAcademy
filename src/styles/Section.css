@@ -1,0 +1,70 @@
+.section {
+  margin: 1rem 6rem;
+  padding: 2.5rem 6rem;
+  padding-right: 1rem;
+  background-color: white;
+  border: 1px rgba(0, 0, 0, 0.2) solid;
+  border-radius: 10px;
+  position: relative;
+}
+
+.section-image {
+  position: absolute;
+  top: 2.5rem;
+  left: 1.25rem;
+  width: 3.5rem;
+  border-radius: 1.75rem;
+}
+
+.section-title {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #0d9277;
+}
+
+.section-subjects {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+.section-item {
+  width: 32%;
+  position: relative;
+}
+
+.section-shown-container {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  margin: 0.5rem 0;
+}
+
+.section-shown {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section-hidden {
+  text-wrap: nowrap;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  z-index: -1;
+  font-size: 11px;
+  padding: 4px;
+  color: transparent;
+  user-select: none;
+}
+
+.section-shown-container:hover,
+.section-shown-container:focus {
+  text-decoration: underline;
+}
+
+.section-shown-container:hover ~ .section-hidden,
+.section-shown-container:focus ~ .section-hidden {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
